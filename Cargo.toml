@@ -1,6 +1,6 @@
 [package]
 name = "pros_bindgen"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Nixon <nixon.emoony@gmail.com>"]
 edition = "2018"
 description = "Generate PROS bindings to rust"

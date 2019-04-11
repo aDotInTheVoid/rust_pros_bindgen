@@ -32,6 +32,7 @@ pub fn bindgen(){
 
     let bindings = bindgen::Builder::default()
         .header(out_h_loc.clone())
+        .ctypes_prefix("::libc")
         .generate()
         .expect("Unable to generate bindings");
 
